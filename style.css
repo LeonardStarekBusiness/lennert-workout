@@ -1,0 +1,80 @@
+.sexen {
+    background-color: rgba(255, 266, 255, 1);
+   }
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;} 
+html, body {
+    height: 100%;   /* Ensures full height */}
+img {
+    width: 100%;  /* Ensure the images take full width */
+    display: block;  /* Prevent images from having space below them */}
+  
+
+
+    .image-container {
+        position: relative;
+        width: 100%; /* Set a width based on your images or use 100% */
+    }
+    
+    .background {
+        width: 100%;
+		display: block; /* Remove any default inline spacing */
+		margin: 0 auto; /* Center the image horizontally */
+    }
+    
+	.logo {
+        transform: scale(0); /* Initially scaled down */
+        animation: ZoomIn 5s forwards; /* Trigger the zoom-in animation */
+        width: 33%; /* Adjust width as needed */;
+        pointer-events: none; /* Optional: prevents the foreground from blocking interactions */
+		position: absolute;
+        top: 45%;
+        left: 33%;
+    }
+	
+	.banner {
+		transform: scale(1); /* Initially scaled down */
+        width: 100%; /* Adjust width as needed */;
+        pointer-events: none; /* Optional: prevents the foreground from blocking interactions */
+		position: absolute;
+        top: 0%;
+	}
+	
+	@keyframes ZoomIn {
+    0% {
+        transform: scale(0.5) rotate(-360deg); /* Start with no scale and no rotation */
+    }
+    100% {
+        transform: scale(1) rotate(360deg); /* End with full scale and a 360-degree rotation */
+    }
+}
+
+
+/* Style for the bottom bar */
+.bottom-bar {
+    position: fixed;   /* Fix the bar at the bottom */
+    bottom: 0;         /* Position it at the bottom */
+    left: 0;
+    width: 100%;       /* Make the bar span the full width of the page */
+    background-color: #333; /* Set the background color of the bar */
+    text-align: center; /* Center the links */
+    padding: 10px 0;    /* Add some padding to the bar */
+    z-index: 1000;      /* Ensure the bar is above other content */
+}
+
+/* Style for the links */
+.link {
+    color: #fff;       /* Set the link text color */
+    text-decoration: none; /* Remove underlines from the links */
+    margin: 0 15px;    /* Add some spacing between the links */
+    font-size: 25px;    /* Set the font size */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Change color of links when hovered */
+.link:hover {
+    color: #f39c12;    /* Change the color on hover */
+}
