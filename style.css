@@ -24,7 +24,11 @@ img {
 		display: block; /* Remove any default inline spacing */
 		margin: 0 auto; /* Center the image horizontally */
     }
-    
+
+	.imgur{
+		width:25%;
+	}
+
 	.logo {
         transform: scale(0); /* Initially scaled down */
         animation: ZoomIn 5s forwards; /* Trigger the zoom-in animation */
