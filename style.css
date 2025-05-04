@@ -17,7 +17,7 @@ img {
 
 .text{
 	font-family: 'Comic Sans MS', cursive, sans-serif;	
-	color:gold;
+	color:black;
 	font-size: clamp(16px, 4vw, 32px);
 }
 
@@ -28,7 +28,7 @@ img {
     }
 
 .discrete-link{
-	color: black;
+	color: yellow;
 	font-family: 'Comic Sans MS', bold, sans-serif;	
 	font-weight: bold;
 	text-decoration: none;
