@@ -27,6 +27,15 @@ img {
       justify-content: center;
     }
 
+.discrete-link{
+	color: black;
+	font-family: 'Comic Sans MS', bold, sans-serif;	
+	font-weight: bold;
+}
+.discrete-link:hover {
+      color: green;
+    }
+
 .newsletter-link {
       background-color: yellow;
       color: black;
