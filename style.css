@@ -41,6 +41,7 @@ img {
     .image-container {
         position: relative;
         width: 100%; /* Set a width based on your images or use 100% */
+	    background-color: rgba(0, 0, 150, 1);
     }
     
     .background {
