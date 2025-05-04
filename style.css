@@ -15,7 +15,11 @@ html, body {
 img {
     width: 100%;  /* Ensure the images take full width */
     display: block;  /* Prevent images from having space below them */}
-  
+
+.text{
+	font-family: 'Comic Sans MS', cursive, sans-serif;	
+}
+
 .container {
       display: flex;
       align-items: center;
