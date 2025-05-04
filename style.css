@@ -8,6 +8,9 @@
    box-sizing: border-box;} 
 html, body {
     height: 100%;   /* Ensures full height */}
+	display: flex;
+      justify-content: center;
+      align-items: center;
 img {
     width: 100%;  /* Ensure the images take full width */
     display: block;  /* Prevent images from having space below them */}
