@@ -16,6 +16,12 @@ img {
     width: 100%;  /* Ensure the images take full width */
     display: block;  /* Prevent images from having space below them */}
   
+.container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
 .newsletter-link {
       display: inline-block;
