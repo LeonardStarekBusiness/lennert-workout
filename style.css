@@ -13,7 +13,20 @@ img {
     display: block;  /* Prevent images from having space below them */}
   
 
+.newsletter-link {
+      display: inline-block;
+      background-color: yellow;
+      color: black;
+      border: 2px solid black;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
 
+    .newsletter-link:hover {
+      background-color: gold;
+    }
     .image-container {
         position: relative;
         width: 100%; /* Set a width based on your images or use 100% */
