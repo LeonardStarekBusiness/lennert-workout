@@ -11,7 +11,6 @@ html, body {
 	display: flex;
       justify-content: center;
       align-items: center;
-	background-color: "00aa00";
 img {
     width: 100%;  /* Ensure the images take full width */
     display: block;  /* Prevent images from having space below them */}
