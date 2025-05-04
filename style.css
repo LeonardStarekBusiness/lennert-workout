@@ -17,7 +17,7 @@ img {
 
 .text{
 	font-family: 'Comic Sans MS', cursive, sans-serif;	
-	color:orange;
+	color:gold;
 	font-size: clamp(16px, 4vw, 32px);
 }
 
