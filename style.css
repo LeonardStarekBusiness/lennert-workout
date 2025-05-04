@@ -28,13 +28,13 @@ img {
     }
 
 .discrete-link{
-	color: yellow;
+	color: gold;
 	font-family: 'Comic Sans MS', bold, sans-serif;	
 	font-weight: bold;
 	text-decoration: none;
 }
 .discrete-link:hover {
-      color: gold;
+      color: yellow;
     }
 
 .newsletter-link {
