@@ -16,7 +16,7 @@ img {
     display: block;  /* Prevent images from having space below them */}
 
 .text{
-	font-family: 'Comic Sans MS', cursive, sans-serif;	
+	font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Segoe Print', cursive, sans-serif;
 	color:black;
 	font-size: clamp(16px, 4vw, 32px);
 }
