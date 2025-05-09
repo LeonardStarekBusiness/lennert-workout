@@ -38,15 +38,19 @@ img {
     }
 
 .newsletter-link {
-      background-color: yellow;
-      color: black;
-      border: 2px solid black;
-      padding: 4px 4px;
-      text-decoration: none;
-	font-weight: bold;
-      font-family: 'Comic Sans MS', bold, sans-serif;	
-	width:40%;
-    }
+  background-color: yellow;
+  color: black;
+  border: 2px solid black;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Segoe Print', cursive, sans-serif;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 4vh; /* Text size is 4% of viewport height */
+}
+
 
     .newsletter-link:hover {
       background-color: gold;
