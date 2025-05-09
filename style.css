@@ -45,6 +45,7 @@ img {
       text-decoration: none;
 	font-weight: bold;
       font-family: 'Comic Sans MS', bold, sans-serif;	
+	width:20%;
     }
 
     .newsletter-link:hover {
