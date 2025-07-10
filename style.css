@@ -103,7 +103,7 @@ img {
 /* Style for the bottom bar */
 .bottom-bar {
     position: fixed;   /* Fix the bar at the bottom */
-    bottom: 0;         /* Position it at the bottom */
+    top: 0;         /* Position it at the bottom */
     left: 0;
     width: 100%;       /* Make the bar span the full width of the page */
     background-color: #333; /* Set the background color of the bar */
