@@ -1,5 +1,5 @@
 .sexen {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #bad9b5;
    }
 
 *{
@@ -19,6 +19,8 @@ img {
 	font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Segoe Print', sans-serif;
 	color:black;
 	font-size: clamp(16px, 4vw, 32px);
+	background-color: rgba(255, 255, 0, 0);
+	
 }
 
 .container {
@@ -28,18 +30,20 @@ img {
     }
 
 .discrete-link{
-	color: gold;
+	color:#9ce37d;
+	text-shadow: 0 0 15px #732c2c, 0 0 20px #420c14, 0 0 40px #420c14;
 	font-family: 'Comic Sans MS', bold, sans-serif;	
 	font-weight: bold;
 	text-decoration: none;
+	font-size: 5.5vh;
 }
 .discrete-link:hover {
-      color: yellow;
+      color: #420c14;
     }
 
 .newsletter-link {
-  background-color: yellow;
-  color: black;
+  background-color: #eff7cf;
+  color: #732c2c;
   border: 2px solid black;
   padding: 4px 8px;
   text-decoration: none;
@@ -48,12 +52,12 @@ img {
   display: inline-block;
   width: auto;
   height: auto;
-  font-size: 4vh; /* Text size is 4% of viewport height */
+  font-size: 6vh; /* Text size is 4% of viewport height */
 }
 
 
     .newsletter-link:hover {
-      background-color: gold;
+      background-color: #aba361;
     }
     .image-container {
         position: relative;
@@ -78,7 +82,7 @@ img {
         width: 33%; /* Adjust width as needed */;
         pointer-events: none; /* Optional: prevents the foreground from blocking interactions */
 		position: absolute;
-        top: 45%;
+        top: 10%;
         left: 33%;
     }
 	
@@ -87,7 +91,7 @@ img {
         width: 100%; /* Adjust width as needed */;
         pointer-events: none; /* Optional: prevents the foreground from blocking interactions */
 		position: absolute;
-        top: 0%;
+        top: 50%;
 	}
 	
 	@keyframes ZoomIn {
@@ -102,8 +106,8 @@ img {
 
 /* Style for the bottom bar */
 .bottom-bar {
-    position: fixed;   /* Fix the bar at the bottom */
-    top: 0;         /* Position it at the bottom */
+    position: fixed;   /* Fix the bar at the top */
+    top: 0;         /* Position it at the top */
     left: 0;
     width: 100%;       /* Make the bar span the full width of the page */
     background-color: #333; /* Set the background color of the bar */
@@ -125,3 +129,75 @@ img {
 .link:hover {
     color: #f39c12;    /* Change the color on hover */
 }
+
+.parallax {
+      /* The image used */
+      background-image: url('para.png');
+
+      /* Set a specific height */
+      width:100%;
+	
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+	
+.content {
+      height: 300px;
+      background-color: pink;
+      text-align: center;
+      padding: 50px;
+      font-size: 24px;
+    }
+
+.sushi-track-wrapper {
+  overflow: hidden;
+  background: #fff;
+  padding: 20px 0;
+  background-color: #bad9b5;
+}
+
+.sushi-track {
+  display: flex;  /* flex instead of inline-block */
+  animation: scroll 15s linear infinite;
+  gap: 40px;
+  background-color: #bad9b5;
+}
+
+.sushi-item {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-color: #bad9b5;
+}
+
+.sushi-item img {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #bad9b5;
+}
+
+.sushi-item span {
+  margin-top: 8px;
+  font-size: 120%;
+  color: #222;
+  font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Segoe Print', sans-serif;
+  color:black;
+  text-align: center;
+  background-color: #bad9b5;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-89.5%);
+  }
+}
+
