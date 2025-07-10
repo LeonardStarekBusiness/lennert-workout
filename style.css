@@ -209,9 +209,7 @@ img {
 	}
 	.parallax {
 	  background-image: url('param.png');
-    background-attachment: scroll; /* Disable parallax */
-    height: 80vh; /* Prevent mobile zoom/cutoff */
-    }
+        }
 	.sushi-item {
 		width: 40%;
 	}
