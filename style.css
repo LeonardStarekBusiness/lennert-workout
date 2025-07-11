@@ -224,6 +224,27 @@ img {
 	}
 }
 
+@media (hover: none) and (pointer: coarse) {
+	.sushi-item span {
+		font-size: 100%;
+	}
+	.parallax {
+	  background-image: url('param.png');
+        }
+	.sushi-item {
+		width: 40%;
+	}
+	.sushi-track{
+	animation: scroll-mob 15s linear infinite;
+	}
+	.link{
+		font-size: 3vw; 
+	}
+	.text2{
+		font-size: clamp(12px, 3vw, 28px);
+	}
+}
+
 @keyframes scroll {
   from {
     transform: translateX(0%);
