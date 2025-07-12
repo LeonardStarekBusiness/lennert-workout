@@ -215,6 +215,7 @@ img {
 	}
 	.sushi-track{
 	animation: scroll-mob 15s linear infinite;
+	gap: 10%;
 	}
 	.link{
 		font-size: 3vw; 
