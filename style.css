@@ -172,7 +172,7 @@ img {
 .sushi-track {
   display: flex;  /* flex instead of inline-block */
   animation: scroll 15s linear infinite;
-  gap: 40px;
+  gap: 5%;
   background-color: #bad9b5;
 }
 
@@ -256,7 +256,7 @@ img {
     transform: translateX(0%);
   }
   to {
-    transform: translateX(-89.5%);
+    transform: translateX(-100%);
   }
 }
 
@@ -265,7 +265,7 @@ img {
     transform: translateX(0%);
   }
   to {
-    transform: translateX(-190%);
+    transform: translateX(-200%);
   }
 }
 
