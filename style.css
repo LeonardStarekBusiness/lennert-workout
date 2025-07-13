@@ -120,7 +120,9 @@ img {
     left: 0;
     width: 100%;       /* Make the bar span the full width of the page */
     background-color: #333; /* Set the background color of the bar */
-    text-align: center; /* Center the links */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 0;    /* Add some padding to the bar */
     z-index: 1000;      /* Ensure the bar is above other content */
 }
