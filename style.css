@@ -218,6 +218,16 @@ img {
   background-color: #bad9b5;
 }
 
+
+.left{
+	text-align: left;
+}
+
+
+.right{
+	text-align: right;
+}
+
 @media (max-width: 768px) {
 	.sushi-item span {
 		font-size: 100%;
