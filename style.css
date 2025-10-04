@@ -131,8 +131,8 @@ img {
 .link {
     color: #fff;       /* Set the link text color */
     text-decoration: none; /* Remove underlines from the links */
-    margin: 0 15px;    /* Add some spacing between the links */
-    font-size: 1.7vw;    /* Set the font size */
+    margin: 0 1.5vw;    /* Add some spacing between the links */
+    font-size:  clamp(16px, 1.7vw, 32px);    /* Set the font size */
     transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
@@ -221,7 +221,7 @@ img {
 }
 
 
-@media (max-width: 768px) {
+@media (max-aspect-ratio: 1/1) {
 	.sushi-item span {
 		font-size: 100%;
 	}
@@ -236,31 +236,7 @@ img {
 	gap: 10%;
 	}
 	.link{
-		font-size: 3vw; 
-	}
-	.text2{
-		font-size: clamp(12px, 3vw, 28px);
-	}
-	.sushi-item span {
- 	 font-size: 4vw;
-	}
-}
-
-@media (hover: none) and (pointer: coarse) {
-	.sushi-item span {
-		font-size: 100%;
-	}
-	.parallax {
-	  background-image: url('paramobile.png');
-        }
-	.sushi-item {
-		width: 40%;
-	}
-	.sushi-track{
-	animation: scroll-mob 15s linear infinite;
-	}
-	.link{
-		font-size: 3vw; 
+		font-size: 1.5vw; 
 	}
 	.text2{
 		font-size: clamp(12px, 3vw, 28px);
