@@ -126,14 +126,11 @@ img {
 /* Style for the links */
 .link {
     color: #fff;       /* Set the link text color */
-    text-decoration: none; /* Remove underlines from the links */
-<<<<<<< HEAD
+    text-decoration: none; /* Remove underlines from the links /
     margin: 0 1vw;     /*Add some spacing between the links */
     font-size: 3vw;    /* Set the font size */
-=======
     margin: 0 1.5vw;    /* Add some spacing between the links */
     font-size:  clamp(16px, 1.7vw, 32px);    /* Set the font size */
->>>>>>> dcc92f9fa1087c53167e45cea6be626dd4bb848d
     transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
