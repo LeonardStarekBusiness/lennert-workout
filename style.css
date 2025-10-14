@@ -135,7 +135,8 @@ img {
 }
 
 /* Change color of links when hovered */
-.link:hover {
+.link:hover 
+{
     color: #f39c12;    /* Change the color on hover */
 }
 
@@ -234,7 +235,7 @@ img {
 	gap: 10%;
 	}
 	.link{
-		font-size: 1.5vw; 
+		font-size: 3vw; 
 	}
 	.text2{
 		font-size: clamp(12px, 3vw, 28px);
