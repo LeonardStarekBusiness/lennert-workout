@@ -25,9 +25,9 @@ img {
 
 .text2{
 	font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Segoe Print', sans-serif;
-	color:black;
-	text-shadow: 0 0 15px #eff7cf, 0 0 20px #eff7cf, 0 0 40px #eff7cf;
-	font-size: clamp(16px, 4vw, 32px);
+	color:white;
+	/*text-shadow: 0 0 15px #eff7cf, 0 0 20px #eff7cf, 0 0 40px #eff7cf;
+	*/font-size: clamp(16px, 4vw, 32px);
 	background-color: rgba(255, 255, 0, 0);
 	
 }
@@ -116,23 +116,19 @@ img {
 /* Style for the bottom bar */
 .bottom-bar {
     position: fixed;   /* Fix the bar at the top */
-    top: 0;         /* Position it at the top */
-    left: 0;
     width: 100%;       /* Make the bar span the full width of the page */
     background-color: #333; /* Set the background color of the bar */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 0;    /* Add some padding to the bar */
     z-index: 1000;      /* Ensure the bar is above other content */
+	text-align: right;
 }
 
 /* Style for the links */
 .link {
     color: #fff;       /* Set the link text color */
     text-decoration: none; /* Remove underlines from the links */
-    margin: 0 15px;    /* Add some spacing between the links */
-    font-size: 1.7vw;    /* Set the font size */
+    margin: 0 1vw;     /*Add some spacing between the links */
+    font-size: 3vw;    /* Set the font size */
     transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
