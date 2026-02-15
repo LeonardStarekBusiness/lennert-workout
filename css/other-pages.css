@@ -98,7 +98,7 @@ input {
     font-family: 'exo-regular';
     font-size: 0.8em;
     margin: 15px 5px;
-    padding: 7px 8em;
+    padding: 7px 5em;
     border-radius: 10px;
 }
 
@@ -109,7 +109,7 @@ form button {
     font-family: 'exo-regular';
     font-size: 0.8em;
     margin: 15px 4px;
-    padding: 7px 5em;
+    padding: 7px 4em;
     border-radius: 10px;
 }
 
