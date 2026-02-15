@@ -101,7 +101,7 @@ input {
     border-radius: 10px;
 }
 
-button .submit {
+form button {
     background-color: #63DF0F;
     color: white;
     font-family: 'exo-regular';
