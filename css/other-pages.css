@@ -93,11 +93,11 @@ li {
 
 /*enter email */
 input {
-    background-color: #63DF0F;
-    color: black;
+    background-color: rgba(18, 18, 18, 0.98);
+    color: white;
     font-family: 'exo-regular';
     font-size: 0.8em;
-    margin: 5px;
+    margin: 15px 5px;
     padding: 7px 8em;
     border-radius: 10px;
 }
@@ -108,8 +108,8 @@ form button {
     color: white;
     font-family: 'exo-regular';
     font-size: 0.8em;
-    margin: 5px;
-    padding: 7px 8em;
+    margin: 15px 4px;
+    padding: 7px 5em;
     border-radius: 10px;
 }
 
