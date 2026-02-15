@@ -98,6 +98,10 @@ h2 + p, li {
     border-radius: 10px;;
 }
 
+script {
+    font-family: 'exo-regular';
+}
+
 /*--------Privacy Policy CSS-Part--------*/
 .policy-title {
     font-size: 7vw;
