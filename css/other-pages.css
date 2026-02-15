@@ -88,7 +88,7 @@ h2 + p, li {
     border-radius: 10px;
 }
 
-#input-type {
+input {
     background-color: #63DF0F;
     color: white;
     font-family: 'exo-regular';
@@ -96,12 +96,6 @@ h2 + p, li {
     margin: 5px;
     padding: 7px 8em;
     border-radius: 10px;;
-}
-
-input {
-    font-family: 'exo-regular';
-    background-color: #63DF0F;
-    font-size:  0.8em;
 }
 
 /*--------Privacy Policy CSS-Part--------*/
