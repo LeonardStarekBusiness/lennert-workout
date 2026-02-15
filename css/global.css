@@ -1,0 +1,249 @@
+/*--------Personal Fonts--------*/
+@font-face {
+    font-family: 'quant-fill';
+    src: url(../fonts/quant-fill.ttf);
+}
+
+@font-face {
+    font-family: 'quant-border';
+    src: url(../fonts/quant-border.ttf);
+}
+
+@font-face {
+    font-family: 'exo-regular';
+    src: url(../fonts/exo-regular.ttf);
+}
+
+@font-face {
+    font-family: 'exo-light';
+    src: url(../fonts/exo-light.ttf);
+}
+
+@font-face {
+    font-family: 'michroma';
+    src: url(../fonts/michroma.ttf);
+}
+
+@font-face {
+    font-family: 'conthrax-semi-bold';
+    src: url(../fonts/conthrax-semi-bold.otf);
+}
+
+
+/*--------Logo--------*/
+
+
+/*--------Navigation--------*/
+header {
+    background-color:rgba(17, 17, 17, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /*stacking order of overlapping elements*/
+    width: 100%;
+}
+
+header div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header a {
+    color: #63DF0F;
+    font-family: 'exo-regular';
+    font-size: 19px;
+    text-decoration-line: none;
+    padding: 7px;
+}
+
+a:hover {
+    color:#cef4b5;
+}
+
+.nav-right {
+    text-align: right;
+    padding: 15px;
+}
+
+nav {
+    justify-content: end;
+}
+
+#menu {
+    display: none;
+}
+
+
+/*--------Responsive Navigation--------*/
+.responsive-nav {
+    position: relative;
+    display: none;
+    width: 30px;
+    height: 25px;
+}
+
+#menu:checked ~ .nav-right {
+    transform: translateX(0);
+}
+
+.responsive-nav span {
+    background:#63DF0F;
+    display: block;
+    height: 3px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.nav-right {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right a {
+    text-align: right;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+@media (max-width:768px){
+    .responsive-nav {
+        display: block;
+        z-index:1100;
+    }
+
+    .responsive-nav span {
+        transform-origin: center;
+        margin: 5.5px 0 5.5px 0;
+        transition: all 0.4s ease;
+    }
+
+    .nav-right {
+        background-color: rgba(18, 18, 18, 0.98);
+        position: fixed;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 35%;
+        height: 100vh;
+        transform: translateX(100%);
+        z-index: 1000;
+        top: 45px;
+        right: 0;
+        padding-top: 20px;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .nav-right a {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #menu:checked + .responsive-nav span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+        transform-origin: center;
+    }
+
+    #menu:checked + .responsive-nav span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu:checked + .responsive-nav span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+        transform-origin: center;
+    }
+}
+
+
+/*--------Highlight Current Page--------*/
+.highlight {
+    background-color: #62df0fc4;
+    color: white;
+    border-radius: 20px;
+}
+
+
+/*--------Cursor--------*/
+* {
+    cursor: url('../cursor/green-cursor.svg') 3 3, auto;
+}
+
+
+/*--------Body--------*/
+body {
+    background-color:rgb(30, 30, 30);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #63DF0F;
+    font-family: 'quant-fill';
+    font-size: 8vw;
+    letter-spacing: 5px;
+}
+
+h2 {
+    color: white;
+    font-family: 'michroma';
+    font-size: 1.45em;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+h2 + p {
+    font-family: 'exo-regular';
+}
+
+p a, span, h3, footer a {
+    color:#63DF0F;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'exo-regular';
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin: 30px 0 7px 0;
+}
+
+h3 ~ p {
+    text-align: center;
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 1.3em;
+    margin: 5px 30px 30px 30px;
+}
+
+h4 {
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 1.5em;
+    margin: 20px 0 3px 30px;
+    letter-spacing: 2px;
+} 
+
+/*--------Footer---------*/
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    font-family: 'exo-regular';
+    font-size: 1.3em;
+    padding: 12px 0.5em;
+    text-decoration-line: none;
+
+}
+
+/*--Responsive Footer for Phone-Width--*/
+@media (max-width: 400px){
+    footer {
+        font-size: 0.7em
+    }
+}

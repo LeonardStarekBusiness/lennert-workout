@@ -1,0 +1,311 @@
+/*--------Image and Title--------*/
+.background-img {
+    width: 100%;
+    opacity: 0.4;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+h1 {
+    text-align: left;
+    padding-right: 30%;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#gainz {
+    text-align: right;
+    color: #fafbf9;
+    font-family: 'quant-border';
+    font-size: 8vw;
+    letter-spacing: 5px;
+    padding-left: 40%;
+}
+
+.img-title {
+    position: relative;
+}
+
+.image-title img {
+    display: block;
+    height: auto;
+} 
+
+.title {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*--------Content of Page--------*/
+h2 {
+    margin-left: 30px;
+}
+
+.p-left {
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#content {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*--------Content Kind and Socials--------*/
+.text-left, .text-right {
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 2.3vw;
+    position: absolute;
+    z-index: 2;
+    bottom: 50%;
+    margin-bottom: 20px;
+}
+
+.text-left {
+    left: 5%;
+    text-align: left;
+    max-width: 45%;
+}
+
+.text-right {
+    right: 5%;
+    text-align: right;
+    max-width: 45%;
+}
+
+#content .background-img {
+    opacity: 0.6;
+}
+
+
+/*--------Video Recommendations/Video-Row--------*/
+aside {
+    mask-image: linear-gradient(to right, 
+    transparent 0,
+    black 10%,
+    black 90%,
+    transparent 100%);
+}
+
+.video-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 0 40px 40px 20px;
+    padding: 10px 10px;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    cursor: url('../cursor/green-cursor.svg') 3 3, auto;
+    min-height: 160px;
+    scrollbar-color: #63DF0F rgb(35, 35, 35);
+}
+
+
+/*--------YouTube-Images of the Video Rows--------*/
+.video-row img {
+    display: block;
+}
+
+.youtube-image {
+    width: 15em;
+    height: auto;
+    padding: 10px;
+    opacity: 1;
+}
+
+
+/*--------YouTube Video Title--------*/
+aside a {
+        color:#ffffff;
+        font-family: 'exo-light';
+        text-align: center;
+        text-decoration: none;
+}
+
+
+/*--------Slogan--------*/
+h5 {
+    background-color: #62df0fc1;
+    color: rgb(30, 30, 30);;
+    font-family: 'conthrax-semi-bold';
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+
+/*--------For 1000px to Full Screen--------*/
+@media (min-width:1000px){
+    .text-left, .text-right {
+        font-size: 1.35em;
+        bottom: 2em;
+    }
+
+    #scale-down-img {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .text-left {
+        left: 5%;
+        text-align: left;
+        max-width: 45%;
+    }
+
+    .text-right {
+        right: 5%;
+        text-align: right;
+        max-width: 45%;
+    }
+}
+
+/*--------For Screen between 1000px to 768px--------*/
+@media (max-width:1000px){
+    .text-left, .text-right {
+        font-size: 1.30em;
+        margin-bottom: 1.3em;
+        bottom: 0.06em;
+    }
+
+    #scale-down-img {
+        overflow: hidden;
+        object-fit: cover;
+        position: relative
+    }
+
+    h5 {
+        font-size: 2em
+    }
+}
+
+/*--------For Screen between 768px to 550px--------*/
+@media (max-width:768px){
+    .img-title .background-img {
+        margin-top: 44px
+    }
+
+    .text-left, .text-right {
+        font-size: 1.1em;
+        bottom: 2px;
+    }
+
+    .text-left {
+        left: 5%;
+        text-align: left;
+        max-width: 45%;
+    }
+
+    .text-right {
+        right: 5%;
+        text-align: right;
+        max-width: 45%;
+    }
+
+    #scale-down-img {
+        width: 150%;
+        height: auto;
+        margin-left: -170px;
+        overflow: hidden;
+        object-fit: cover;
+        position: relative
+    }
+
+    h5 {
+        font-size: 1.9em
+    }
+}
+
+/*--------For Screen between 550px to 400px--------*/
+@media (max-width: 550px){
+    .text-left, .text-right {
+        font-size: 1em;
+        bottom: 15px;
+        margin-top: 60px;
+    }
+
+    .text-right {
+        right: 5%;
+        text-align: right;
+        max-width: 25%;
+    }
+    .text-left {
+        left: 5%;
+        text-align: left;
+        max-width: 45%;
+    }
+
+    #scale-down-img {
+        width: 150%;
+        height: auto;
+        margin-left: -140px;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative
+    }
+
+    h5 {
+        font-size: 1.6em
+    }
+}
+
+/*--------For Screen Width under 400px and Phones--------*/
+@media (max-width: 400px){
+
+    .youtube-image {
+        width: 10em;
+    }
+
+    aside a {
+        font-size: 0.9em;
+        margin: 0 6px;
+    }
+
+    .text-left, .text-right {
+        font-size: 1em;
+       
+    }
+
+    .text-right {
+        right: 5%;
+        text-align: right;
+        max-width: 30%;
+    }
+
+    #scale-down-img {
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        width: 200%;
+        height: auto;
+        margin-left: -193px;
+    }
+
+    .text-left {
+        left: 5%;
+        text-align: left;
+        max-width: 45%;
+    }
+
+    h5 {
+        font-size: 1.5em
+    }
+
+    .video-row {
+        padding-right: 0;
+        margin-right: 20px;
+        scrollbar-width: none;
+    }
+
+    
+}

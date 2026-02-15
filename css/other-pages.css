@@ -1,0 +1,195 @@
+/*About Me CSS-Part*/
+#subtitle {
+    color: #63DF0F;
+    font-family: 'michroma';
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#about-img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/*--------The Gainz Gazette Title--------*/
+h1 {
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-top: 2em;
+}
+
+h2, p, li {
+    margin: 7px 30px 0 30px
+}
+
+.centered {
+    text-align: center;
+}
+
+.gazette {
+    color: white;
+    font-family: 'quant-border';
+}
+
+span {
+    font-family: 'exo-regular';
+}
+
+
+/*--------Welcome Sentence--------*/
+.welcoming {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+h2 + p, li {
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 1.25em;
+}
+
+.list {
+    font-size: 1.4em;
+}
+
+.list li {
+    font-size: 0.9em;
+}
+
+
+/*--------Squat Image--------*/
+#container {
+    display: flex;
+    overflow-x: hidden;
+    gap: 2%;
+    margin-bottom: 2em;
+}
+
+.img-row {
+    border-radius: 5vw 0 5vw 0;
+    opacity: 1;
+    flex: 1 1 0;
+    height: 23vw;
+    display: block;
+    margin: 10px 0;
+}
+
+
+/*--------Subscribe to Gainz Gazette - Paragraph--------*/
+.centered {
+    margin: 40px 0px
+}
+
+#text {
+    width: 20em;
+    border-radius: 10px;
+}
+
+#input-type {
+    background-color: #63DF0F;
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 0.8em;
+    margin: 5px;
+    padding: 7px 8em;
+    border-radius: 10px;;
+}
+
+/*--------Privacy Policy CSS-Part--------*/
+.policy-title {
+    font-size: 7vw;
+}
+
+.heading {
+    margin-top: 40px;
+}
+.paragraph {
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 1.25em;
+}
+
+.update {
+    font-size: 1.5em;
+    margin: 30px;
+}
+
+.margin-main {
+    margin: 10px 20px 40px 20px;
+}
+
+main ul li {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+main ol li {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+ol ul {
+    font-size: 0.7em;
+    margin-left: -35px;
+}
+
+
+/*--------Adjustments for the Phone Width--------*/
+@media (max-width: 400px){
+
+    /*--------Newsletter--------*/
+    h1 {
+        font-size: 2.4em;
+        margin: 80px 0 30px 0;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    .centered {
+        font-size: 0.8em;
+    }
+
+    .welcoming {
+        font-size: 1.2em;
+        margin-top: 18px;
+    }
+
+    .img-row {
+        display: none
+    }
+
+    #middle-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    ul {
+        font-size: 0.9em;
+    }
+
+    div p {
+        font-size: 1.5em;
+    }
+
+
+    /*--------Private Policy--------*/
+    #data {
+        font-size: 0.9em
+    }
+
+    .policy-title {
+    font-size: 2.5em;
+    }
+
+    
+    /*--Privacy Policy and Terms of Service--*/
+    .update {
+        font-size: 1.15em;
+    }
+}

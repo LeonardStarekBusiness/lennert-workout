@@ -1,104 +1,271 @@
-<link rel="stylesheet" href="style.css">
-
-<header>
-	<div class="bottom-bar" style="height:7vh;">	
-		<a href="https://youtube.com/@lennertplayz" class="link">YouTube</a>
-		<a href="https://www.instagram.com/lennertgainz123/" class="link">Instagram</a>
-		<a href="https://newsletter.lennertgainz.com" class="link">Newsletter</a>
-		<a href="https://lennert-playz.itch.io/" class="link">Games</a>
-		<a href="#contact" class="link">Contact</a>
-	</div>
-
-</header>
-
-<body class="sexen">	
-	
-    <div class="image-container">
-		<img src="green_bg.jpg" alt="Background" class="background">
-        <img src="pfp.png" alt="Foreground" class="logo">
-		<img src="banner.png" alt="Foreground" class="banner">
-		
-    </div>
+<!DOCTYPE html>
+<html lang="en">
 
 
-	<h1 class="text" style="text-align: center;">Hello there! My name is Lennert. <br>
-	I am a brainrotted teen who is really into fitness.<br></h1>
-	<br>
-	
-	<div class="parallax">
-	<h1 class="text2" style="text-align: center;font-size: clamp(21px, 6vw, 42px)"><br><br>Two years ago, I was vegeterian and horribly skinny and insecure.<br><br>
-	Now, I´m still vegeterian but jacked and confident!<br><br><br><br><br>
-	</h1>
-	</div>
-	
-	<h1 class="text" style="text-align: center;">
-	It is my mission to inspire and help people to start working out,
-	and get young people to understand they can change themselves and the world around them.</h1>
-	
-	<br><br><br><br>
-	
-<div class="sushi-track-wrapper">
-  <div class="sushi-track">
-    <div class="sushi-item">
-       <a href="https://www.youtube.com/watch?v=7hwCIEGVaZ8"><img src="tbs/vid1.jpeg" alt="sushi"></a> <span>We Raided a Calisthenics Meet</span> </div>
-    <div class="sushi-item">
-      <a href="https://www.youtube.com/watch?v=5FfYTmr1G7s"><img src="tbs/vid2.jpeg" alt="sushi"></a> <span>How Jacked can You get as a Vegeterian?</span> </div>
-    <div class="sushi-item">
-      <a href="https://youtu.be/xIIPkdxReLI?feature=shared"><img src="tbs/vid3.jpeg" alt="sushi"></a> <span>How to Train for Strength</span> </div>
-    <div class="sushi-item">
-      <a href="https://youtu.be/P46wUUi7wfQ?feature=shared"><img src="tbs/vid4.jpeg" alt="sushi"></a> <span>How to get the Shrek Build</span> </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lennertgainz.com</title>
+    <link rel="stylesheet" href="./css/landing-page.css">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
 
-    <!-- Repeat for smooth loop -->
-    <div class="sushi-item">
-       <a href="https://www.youtube.com/watch?v=7hwCIEGVaZ8"><img src="tbs/vid1.jpeg" alt="sushi"></a> <span>We Raided a Calisthenics Meet</span> </div>
-    <div class="sushi-item">
-      <a href="https://www.youtube.com/watch?v=5FfYTmr1G7s"><img src="tbs/vid2.jpeg" alt="sushi"></a> <span>How Jacked can You get as a Vegeterian?</span> </div>
-    <div class="sushi-item">
-      <a href="https://youtu.be/xIIPkdxReLI?feature=shared"><img src="tbs/vid3.jpeg" alt="sushi"></a> <span>How to Train for Strength</span> </div>
-    <div class="sushi-item">
-      <a href="https://youtu.be/P46wUUi7wfQ?feature=shared"><img src="tbs/vid4.jpeg" alt="sushi"></a> <span>How to get the Shrek Build</span> </div>
-	<div class="sushi-item">
-       <a href="https://www.youtube.com/watch?v=7hwCIEGVaZ8"><img src="tbs/vid1.jpeg" alt="sushi"></a> <span>We Raided a Calisthenics Meet</span> </div>
+
+<body>
+    <header>
+        <div>
+            <!--Responsive Navigation-->
+            <input type="checkbox" id="menu">
+            <label for="menu" class="responsive-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+
+             <!--Normal Navigation-->
+            <nav class="nav-right">
+                <a class="highlight" href="./index.html">HOME</a>
+                <a href="./pages/about-me.html">ABOUT ME</a>
+                <a href="https://www.youtube.com/@lennertplayz">SOCIALS</a>
+                <a href="./pages/newsletter.html">NEWSLETTER</a>
+                <a href="https://lennert-playz.itch.io/">APPS</a>
+                <a href="./pages/policy.html#contact-us">CONTACT</a>
+                <a href="https://lennertgainz.com/">MORE</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <!--Title and Main Image of the Website-->
+        <div class="img-title">
+            <img class="background-img" src="images/intro-img.jpg" alt="intro-img">
+            <h1 class="title">LENNERT</h1>
+            <h2 class="title" id="gainz">GAINZ</h2>
+        </div>
     
 
-  </div>
-</div>
+        <!--Content of Page: About, Mission, Be Inspired and Become the inspiration-->
+        <h2>About</h2>
+        <p class="p-left">
+            My name is <span>Lennert</span>. I am a brainrotted fitness enthusiast passionate about self-improvement and personal growth. <br>
+            Two years ago, I was vegetarian, horribly skinny and insecure. <br>
+            Today, I'm <span id="mission">still vegetarian</span> but stronger, more confident and committed to help others achieve their healthiest self.
+        </p>
 
- 
-	<br><br><br><br>
-	
-	<div class="parallax2">
-	<div class="text2" style="text-align: center;"><br>I use a combination of <h2>brainrot humor</h2> and <h2>evidence-based tips</h2> to help people become the best and happiest version of themselves!<br><br>
-	You can follow me on<br> <a class="discrete-link" href="https://www.youtube.com/@lennertplayz" target="_blank">YOUTUBE</a><br> (if not already done!)
-		and sub to my <br><a class="discrete-link" href="https://newsletter.lennertgainz.com" target="_blank">NEWSLETTER</a><br>
-		to recieve
-		<a style="color:#eff7cf;text-shadow: 0 0 5px #732c2c, 0 0 10px #420c14, 0 0 20px #420c14;">exclusive updates</a>
-		and access to my
-		<a style="color:#eff7cf;text-shadow: 0 0 5px #732c2c, 0 0 10px #420c14, 0 0 20px #420c14;">free workout plan</a>
-		!<br>
-	</div>
-	
-	<br><br><br>
+        <h2>Mission</h2>
+        <p class="p-left">
+            It has always been my goal to <span>inspire and empower others</span>, especially young people. <br> Through fitness, discipline and courage, I aim to show, that anyone  can become stronger -  <b>physically and mentally</b>.
+        </p>
 
-	<div class="container">
-	<a class="newsletter-link" href="https://newsletter.lennertgainz.com" target="_blank"> JOIN THE NEWSLETTER</a>
-	</div>
-	
-	<br><br><br>
-	
-	</div>
-	
-	<div class="text" style="text-align: center; font-size:3vh" id="contact"><br><br><br><br><br><br>
-	<img src="banner.png" alt="Foreground" style="width:50%"><br>
-	E-Mail: lennert.plays@gmail.com <br>
-	Domain managed by GoDaddy <br>
-	Website hosted on Netlify<br></span>
-	
-	
+        <h2>Be inspired and become the inspiration</h2>
+        <p class="p-left">
+            By <span>changing your habits</span>, you not only improve yourself, but also the world around you.
+        </p> 
 
-	<br>
+
+        <!--Content of the YouTube-Videos-->
+        <div id="content">
+            <img class="background-img" id="scale-down-img" src="./images/content-img.jpg" alt="Content-Image">
+
+            <p class="text-left">
+                I use a combination of <br>
+                <b>brainrot humor</b> <br>
+                and <br>
+                <b>evicence-based tips</b> <br>
+                to help individuals <br>become the best and happiest <br> version of themselves! <br>
+            </p>
+            <p class="text-right">
+                You can follow me on <br>
+                <a href="https://www.youtube.com/@lennertplayz">YouTube</a> and <a href="https://www.instagram.com/lennertgainz123/" >Instagram</a>
+            </p>
+        </div>
+
+        
+        <!--Newsletter Paragraph-->
+        <h3>Newsletter</h3>
+        <p>
+            Join the Newsletter to recieve exclusive updates <br>
+            and get my free workout plan. <br>
+            Access the page through the <b>"Newsletter" - button</b> in the menu.
+        </p>
+
+
+        <!--Links to Video Recomendations-->
+        <h3>
+            Video Recommendations
+        </h3>
+
+        <!--Most Viewed - First Video-Row-->
+        <h4>Most Viewed</h4>
+        <aside class="video-row">
+
+            <a href="https://youtu.be/IyIDNzXCsgg?si=qrp8TJ4IKBgqukJu">
+                <img class="youtube-image" src="https://img.youtube.com/vi/IyIDNzXCsgg/hqdefault.jpg"
+                alt="Hamza Ahmed - Then vs. Now">
+                Hamza Ahmed - Then vs. Now
+            </a>
+
+            <a href="https://youtu.be/6DOTgRrO5Xs?si=GngzVnak0qx9Bt_Z">
+                <img class="youtube-image" src="https://img.youtube.com/vi/6DOTgRrO5Xs/hqdefault.jpg"
+                alt="Hamza Ahmed - Then vs. Now - Part 2">
+                Hamza Ahmed - Then vs. Now - <br> Part 2
+            </a>
+
+            <a href="https://youtu.be/VLbnZOjf-T0?si=eUQ2UERumcGT0KpR">
+                <img class="youtube-image" src="https://img.youtube.com/vi/VLbnZOjf-T0/hqdefault.jpg"
+                alt="Self Improvement Slander">
+                Self Improvement Slander
+            </a>
+
+            <a href="https://youtu.be/j7bpT-PwnIY?si=AEmW1DhEQs8a5RWa">
+                <img class="youtube-image" src="https://img.youtube.com/vi/j7bpT-PwnIY/hqdefault.jpg"
+                alt="Self Improvement Slander 2">
+                Self Improvement Slander 2
+            </a>
+
+             <a href="https://youtu.be/hEY8x9yQYMg?si=Mz887E5xVcE4zyuc">
+                <img class="youtube-image" src="https://img.youtube.com/vi/hEY8x9yQYMg/hqdefault.jpg"
+                alt="Self Improvement Slander 3">
+                Self Improvement Slander 3
+            </a>
+
+            <a href="https://youtu.be/FAQUwdfk7pE?si=lusJwyXm9KnY-TgE">
+                <img class="youtube-image" src="https://img.youtube.com/vi/FAQUwdfk7pE/hqdefault.jpg"
+                alt="Self Improvement Slander 4">
+                Self Improvement Slander 4
+            </a>
+        </aside>
+
+
+        <!--Personal Life - Second Video Row-->
+        <h4>Personal Life</h4>
+        <aside class="video-row" data-row="2">
+
+            <a href="https://youtu.be/kDiWd9Ex2i4?si=tRT0gsFEh5BAwpGA">
+                <img class="youtube-image" src="https://img.youtube.com/vi/kDiWd9Ex2i4/hqdefault.jpg"
+                alt="222g of Protein without Meat">
+                222g of Protein without Meat
+            </a>
+
+            <a href="https://youtu.be/7hwCIEGVaZ8?si=-Z95S5QhErvANBHM">
+                <img class="youtube-image" src="https://img.youtube.com/vi/7hwCIEGVaZ8/hqdefault.jpg"
+                alt="Raiding a Calisthenics Competition">
+                Raiding a <br> Calisthenics Competition
+            </a>
+
+            <a href="https://youtu.be/5FfYTmr1G7s?si=a5vjjg1s4gMTSl8h">
+                <img class="youtube-image" src="https://img.youtube.com/vi/5FfYTmr1G7s/hqdefault.jpg"
+                alt="The Truth about Plant Proteins">
+                The Truth about Plant Proteins
+            </a>
+
+            <a href="https://youtu.be/z7rY7LbpqUM?si=DcwGuqXUV2eRBQOO">
+                <img class="youtube-image"
+                src="https://img.youtube.com/vi/z7rY7LbpqUM/hqdefault.jpg"
+                alt="I took Creatin for 30 Days">
+                I took Creatin for 30 Days
+            </a>
+
+            <a href="https://https://youtu.be/Sn8upOUw_jo?si=tv15zcswCylapQLl">
+                <img class="youtube-image" src="https://img.youtube.com/vi/Sn8upOUw_jo/hqdefault.jpg"
+                alt="How Lean can I get in 30 Days">
+                How Lean can I get in 30 Days
+            </a>
+
+            <a href="https://youtu.be/vGHWQzo-VAA?si=EzACdK5HyaH7gXMB">
+                <img class="youtube-image" src="https://img.youtube.com/vi/vGHWQzo-VAA/hqdefault.jpg"
+                alt="Realistic 2 Year Body Transformation">
+                Realistic 2 Year Body Transformation
+            </a>
+
+            <a href="https://youtu.be/trGVs0Fo7XA?si=ALxUP0aQ5McOcDtD">
+                <img class="youtube-image" src="https://img.youtube.com/vi/trGVs0Fo7XA/hqdefault.jpg"
+                alt="Crossfit at a Calisthenics Competition (trolled)">
+                Crossfit at a Calisthenics Competition (trolled)
+            </a>
+
+            <a href="https://youtu.be/ONj_HN7_W98?si=Oc6jrDufe17xgStL">
+                <img class="youtube-image" src="https://img.youtube.com/vi/ONj_HN7_W98/hqdefault.jpg"
+                alt="I made a Self Improvement Game">
+                I made a Self Improvement Game
+            </a>
+
+            <a href="https://youtu.be/DlnJUnfvXj8?si=VpL4PZK3Lm2wauXF">
+                <img class="youtube-image" src="https://img.youtube.com/vi/DlnJUnfvXj8/hqdefault.jpg"
+                alt="Do NOT Bench Alone">
+                Do NOT Bench Alone
+            </a>
+        </aside>
+
+
+        <!--Norms and Motivational Speeches - Third Video Row-->
+        <h4>Aesthetic Norms and Motivational Speeches</h4>
+        <aside class="video-row" data-row="3">
+
+            <a href="https://youtu.be/zK7JQ1kQ1zA?si=5fnCQ6B01vqaHZtD" aria-label="Watch the Disturbing Looksmaxxing Iceberg">
+                <img class="youtube-image" src="https://img.youtube.com/vi/zK7JQ1kQ1zA/hqdefault.jpg"
+                alt="The Disturbing Looksmaxxing Iceberg">
+                The Disturbing Looksmaxxing Iceberg
+            </a>
+
+            <a href="https://youtu.be/Dzysx7V7LWk?si=PpzNhNFEC0KOXqrM"
+            aria-label="The Millionare Fastlane - Explained by an Idiot">
+                <img class="youtube-image"
+                src="https://img.youtube.com/vi/Dzysx7V7LWk/hqdefault.jpg"
+                alt="The Millionare Fastlane - Explained by an Idiot">
+                The Millionare Fastlane - <br> Explained by an Idiot
+            </a>
+
+            <a href="https://youtu.be/ZpsY_y1T9KQ?si=boVmFRvOt6PLEE9t"
+            aria-label="The Way of the Superior Man - Explained by an Idiot">
+                <img class="youtube-image"
+                src="https://img.youtube.com/vi/ZpsY_y1T9KQ/hqdefault.jpg"
+                alt="The Way of the Superior Man - Explained by an Idiot">
+                The Way of the Superior Man - <br> Explained by an Idiot
+            </a>
+
+            <a href="https://youtu.be/QG5mCPc-ci8?si=rXDfMsGTMYTh1-VW"
+            aria-label="Watch this if you Lack Motivation">
+                <img class="youtube-image"
+                src="https://img.youtube.com/vi/QG5mCPc-ci8/hqdefault.jpg"
+                alt="Watch this if you Lack Motivation">
+                Watch this if you Lack Motivation
+            </a>
+
+            <a href="https://youtu.be/e1AkyJ1My-4?si=2ke4LH513I_oYng8"
+            aria-label="How to make your YouTube less distracting">
+                <img class="youtube-image"
+                src="https://img.youtube.com/vi/e1AkyJ1My-4/hqdefault.jpg"
+                alt="How to make your YouTube less distracting">
+                How to make your YouTube less distracting
+            </a>
+
+            <a href="https://youtu.be/5-WdhCwDbjw?si=FsusnBl_gb7z2XqK"
+            aria-label="Take some Time off - Hustle Culture vs. Self Improvement">
+                <img class="youtube-image"
+                src="https://img.youtube.com/vi/5-WdhCwDbjw/hqdefault.jpg"
+                alt="Take some Time off - Hustle Culture vs. Self Improvement">
+                Take some Time off - <br> Hustle Culture  vs. <br> Self Improvement
+            </a>
+        </aside>
+
+    </main>
+
+
+    <!--Fitness Slogan-->
+    <h5>Be  a   Positive Influence   for   Others.</h5>
+
+
+    <!--Footer-->
+    <footer>
+        <a href="https://share.google/L5EotcFnop6t7Y38B">Domain</a>
+        <a href="https://www.netlify.com/">Host</a>
+        <a href="./pages/policy.html">Privacy Policy</a>
+        <a href="./pages/service.html">Terms of Service</a>
+    </footer>
+    
 </body>
 
-
-
-
+</html>
