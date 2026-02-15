@@ -91,6 +91,7 @@ li {
     border-radius: 10px;
 }
 
+/*enter email */
 input {
     background-color: #63DF0F;
     color: black;
@@ -101,6 +102,7 @@ input {
     border-radius: 10px;
 }
 
+/* join button */
 form button {
     background-color: #63DF0F;
     color: white;
