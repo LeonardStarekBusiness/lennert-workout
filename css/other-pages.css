@@ -101,6 +101,7 @@ h2 + p, li {
 input {
     font-family: 'exo-regular';
     background-color: #63DF0F;
+    font-size:  0.8em;
 }
 
 /*--------Privacy Policy CSS-Part--------*/
