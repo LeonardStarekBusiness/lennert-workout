@@ -21,7 +21,9 @@ h1 {
     margin-top: 2em;
 }
 
-h2, p, li {
+h2,
+p,
+li {
     margin: 7px 30px 0 30px
 }
 
@@ -45,7 +47,8 @@ span {
     font-size: 1.4em;
 }
 
-h2 + p, li {
+h2+p,
+li {
     color: white;
     font-family: 'exo-regular';
     font-size: 1.25em;
@@ -95,7 +98,17 @@ input {
     font-size: 0.8em;
     margin: 5px;
     padding: 7px 8em;
-    border-radius: 10px;;
+    border-radius: 10px;
+}
+
+button .submit {
+    background-color: #63DF0F;
+    color: white;
+    font-family: 'exo-regular';
+    font-size: 0.8em;
+    margin: 5px;
+    padding: 7px 8em;
+    border-radius: 10px;
 }
 
 /*--------Privacy Policy CSS-Part--------*/
@@ -106,6 +119,7 @@ input {
 .heading {
     margin-top: 40px;
 }
+
 .paragraph {
     color: white;
     font-family: 'exo-regular';
@@ -138,7 +152,7 @@ ol ul {
 
 
 /*--------Adjustments for the Phone Width--------*/
-@media (max-width: 400px){
+@media (max-width: 400px) {
 
     /*--------Newsletter--------*/
     h1 {
@@ -184,10 +198,10 @@ ol ul {
     }
 
     .policy-title {
-    font-size: 2.5em;
+        font-size: 2.5em;
     }
 
-    
+
     /*--Privacy Policy and Terms of Service--*/
     .update {
         font-size: 1.15em;
