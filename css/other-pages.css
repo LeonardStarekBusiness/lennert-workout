@@ -98,7 +98,7 @@ h2 + p, li {
     border-radius: 10px;;
 }
 
-form {
+input {
     font-family: 'exo-regular';
     background-color: #63DF0F;
 }
